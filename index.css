@@ -11,7 +11,7 @@ body {
     background-size: cover;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 0px 0px 20px #aaaaaa;
+    text-shadow: 0px 0px 20px #242424;
 }
 
 main {
@@ -29,4 +29,23 @@ div.top {
 
 h1.time {
     text-align: center;
+}
+
+div#crypto {
+    font-size: 1.3rem;
+}
+
+div#crypto > p {
+    margin: 5px;
+    font-size: 1rem;
+}
+
+div#crypto-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+div#crypto-top > span {
+    margin-left: 10px;
 }
